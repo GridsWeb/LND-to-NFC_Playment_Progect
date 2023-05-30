@@ -1,7 +1,7 @@
 # LND-to-NFC_Playment_Progect
 Lightning-fast payments at your fingertips: NFC Terminal with LND integration. Tap, transact, and embrace the future of seamless and cost-effective payments.
 
-# Welcome to the Future of Payments: NFC Payment Terminal with LND Integration
+## Welcome to the Future of Payments: NFC Payment Terminal with LND Integration
 
 Experience the next generation of payments with our NFC Payment Terminal, now enhanced with LND (Lightning Network) integration. This groundbreaking project combines the convenience and security of Near Field Communication (NFC) technology with the lightning-fast transaction speeds and low fees offered by the Lightning Network.
 
