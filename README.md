@@ -13,3 +13,5 @@ Our cutting-edge solution caters to both businesses and consumers, empowering me
 Security is our utmost priority. With robust encryption protocols and authentication measures, each transaction processed through the NFC Payment Terminal and LND integration is secure and protected against unauthorized access or fraudulent activities. Rest assured, your financial data is safeguarded throughout the payment process.
 
 Unlock the power of Lightning Network payments with the NFC Payment Terminal. Embrace the speed, efficiency, and affordability of LND integration, and discover a new era of effortless and secure transactions. Join us as we redefine the landscape of payments, providing a future-forward solution that combines NFC technology and the Lightning Network to create an unparalleled payment experience.
+
+**[Documents](/Doc-Starter.md)**
