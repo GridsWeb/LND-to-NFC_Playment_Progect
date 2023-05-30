@@ -50,7 +50,7 @@ void setup() {
   lcd.print("Terminal");
 
   // Wait for NFC reader to be ready
-  while (!nfc.ready()) {
+  while (!nfc.SAMConfig()) {
     delay(100);
   }
 
