@@ -9,6 +9,8 @@
     | 3  | จอแสดงผล I2C OLED ขนาด 0.96 นิ้ว             | 1       | อเมซอน | AliExpress |
     | 4  | สายเชื่อมต่อ                                   | 15      | อเมซอน | AliExpress |
     | 5  | เขียงหั่นขนม                                   | 1       | อเมซอน | AliExpress |
+    - รายการ Software Application
+      - การชำระเงินผ่านมือถือ Apple Pay NFC, Google Wallet
 
 2. การติดตั้งและการเชื่อมต่อ :
 
