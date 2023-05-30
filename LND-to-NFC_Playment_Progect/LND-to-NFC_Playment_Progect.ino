@@ -25,8 +25,10 @@ void setup() {
 
   // Set up the LCD display
   lcd.begin(LCD_COLUMNS, LCD_ROWS);
+  Serial.println("NFC Payment");
   lcd.print("NFC Payment");
   lcd.setCursor(0, 1);
+  Serial.println("Terminal");
   lcd.print("Terminal");
 
   // Wait for NFC reader to be ready
@@ -36,8 +38,10 @@ void setup() {
 
   // Clear LCD display
   lcd.clear();
+  Serial.print("Ready for");
   lcd.print("Ready for");
   lcd.setCursor(0, 1);
+  Serial.print("Payment");
   lcd.print("Payment");
 }
 
@@ -67,8 +71,10 @@ void processPayment(uint8_t *uid, uint8_t uidLength) {
 
   // Display payment processing message on LCD
   lcd.clear();
+  Serial.print("Processing...");
   lcd.print("Processing...");
   lcd.setCursor(0, 1);
+  Serial.print("Card: " + uidString);
   lcd.print("Card: " + uidString);
 
   // Simulate payment processing delay
@@ -80,8 +86,10 @@ void processPayment(uint8_t *uid, uint8_t uidLength) {
   if (paymentSuccess) {
     // Display payment success message on LCD
     lcd.clear();
+    Serial.print("Payment");
     lcd.print("Payment");
     lcd.setCursor(0, 1);
+    Serial.print("Successful");
     lcd.print("Successful");
 
     // Delay for a few seconds to display the success message
@@ -89,8 +97,10 @@ void processPayment(uint8_t *uid, uint8_t uidLength) {
   } else {
     // Display payment failure message on LCD
     lcd.clear();
+    Serial.print("Payment");
     lcd.print("Payment");
     lcd.setCursor(0, 1);
+    Serial.print("Failed");
     lcd.print("Failed");
 
     // Delay for a few seconds to display the failure message
@@ -99,7 +109,9 @@ void processPayment(uint8_t *uid, uint8_t uidLength) {
 
   // Clear LCD display and go back to the ready state
   lcd.clear();
+  Serial.print("Ready for");
   lcd.print("Ready for");
   lcd.setCursor(0, 1);
+  Serial.print("Payment");
   lcd.print("Payment");
 }
